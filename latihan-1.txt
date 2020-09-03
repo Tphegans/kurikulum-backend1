@@ -1,0 +1,28 @@
+Program Cara_Mengoperasikan_Microsoft_Word
+1.Klik logo Windows
+2.Cari di search engine ketikkan Microsoft, lalu klik Microsoft Word
+3.Pada menu pilih File, lalu pilih Blank Document
+4.Double klik pada Blank Document
+5.Untuk Blank Document bisa juga tekan CTRL+N
+
+7.Document siap digunakan 
+
+SET klik=true  
+SET doubleklik=true
+SET esc=exit
+SET ctrl+n=newfile
+
+JIKA logowindows
+    Tampilkan searchengine 
+LAINNYA
+    Tampilkan microsoft 
+JIKA file
+    Tampilkan blankdocument
+AKHIR-JIKA 
+
+KETIKA microsoft=microsoftword
+    Tambahkan menu
+AKHIR-KETIKA 
+
+UNTUK esc=keluar
+    tambahkan simpan document
