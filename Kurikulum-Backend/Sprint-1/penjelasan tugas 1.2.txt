@@ -1,0 +1,5 @@
+﻿ 							Penjelasan Tugas 1.2
+
+	Pertama, kita buka terminal dengan cara tekan ctrl+shift T, laltu kita ketik perintah php -v yang befungsi untuk melihat versi PHP yang kita install. Setelah itu, kita ketik perintah php -a yang berfungsi untuk ngoding PHP didalam terminal.
+
+	Kedua, untuk mengetahui file PHP kita ketik perintah which PHP dan akan tampil lokasi nama filenya.
