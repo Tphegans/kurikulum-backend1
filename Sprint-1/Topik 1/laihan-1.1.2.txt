@@ -1,0 +1,25 @@
+Program Penjualan_Susu_Kambing_Etawa
+
+SET total pendapatan/bulan = 0
+SET harga/pcs = 20.000
+SET anggota = 50
+SET point anggota dari perolehan penjualan susu = 0
+
+JIKA anggota menjual 5pcs susu 
+    Tampilkan mendapat 1 point
+LAINNYA 
+    Tampilkan tercapai target
+AKHIR-JIKA
+
+JIKA anggota menjual susu < 5pcs
+    Tampilkan 0 point
+LAINNYA
+    Tampilkan tidak tercapai target 
+AKHIR-JIKA
+
+KETIKA anggota menjual lebih dari 5pcs susu
+    Tambahkan bonus 2pcs
+AKHIR-KETIKA
+
+UNTUK total pendapatan
+    Tambahkan total point x harga/pcs
